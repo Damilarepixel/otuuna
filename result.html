@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/sidebar.css" />
+    <title>Results - Otuuna Web</title>
+    <style>
+      .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 23px;
+      }
+    </style>
+  </head>
+  <body class="">
+    <div class="result-body"></div>
+
+    <nav class="navbar" id="navbar">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.svg" class="logo" alt="Otuuna Logo" />
+        <span class="nav-title">Otuuna</span>
+      </a>
+      <div class="navbar-header pull-right">
+        <a
+          href="login.html"
+          type="button"
+          class="btn btn-dark navbar-btn"
+          style="display: inline; margin-bottom: 30px;"
+        >
+          Log in
+        </a>
+        <button
+          class="material-icons ml-4 mr-4 text-light font-weight-bolder"
+          role="button"
+          style="
+            font-size: 40px;
+            display: inline;
+            cursor: pointer;
+            background: transparent;
+            border: 0;
+            outline: 0;
+          "
+          onclick="openNav()"
+        >
+          menu
+        </button>
+      </div>
+    </nav>
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <a href="index.html" class="mt-5">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="faq.html">FAQ</a>
+      <br /><br />
+      <a href="" class="">Photographer...?</a>
+      <button class="btn result-btn ml-4 mt-3" style="width: initial;">
+        Submit photographs
+      </button>
+    </div>
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col text-left">
+          115 Result(s)
+        </div>
+        <div class="col text-right">
+          <span class="material-icons big-icon">
+            apps
+          </span>
+          <span class="material-icons big-icon text-muted">
+            view_list
+          </span>
+        </div>
+      </div>
+      <div class="result-hr"></div>
+      <!-- first row -->
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card result-card">
+            <img
+              class="card-img-top"
+              src="images/result-1.svg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Gtbank food and drink festival 2020
+              </p>
+              <p class="card-text">
+                3:00pm
+              </p>
+              <button class="btn result-btn">Select</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card result-card">
+            <img
+              class="card-img-top"
+              src="images/result-2.svg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Gtbank food and drink festival 2020
+              </p>
+              <p class="card-text">
+                3:00pm
+              </p>
+              <button class="btn result-btn">Select</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card result-card">
+            <img
+              class="card-img-top"
+              src="images/result-1.svg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Gtbank food and drink festival 2020
+              </p>
+              <p class="card-text">
+                3:00pm
+              </p>
+              <button class="btn result-btn">Select</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card result-card">
+            <img
+              class="card-img-top"
+              src="images/result-2.svg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Gtbank food and drink festival 2020
+              </p>
+              <p class="card-text">
+                3:00pm
+              </p>
+              <button class="btn result-btn">Select</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ..../ -->
+      <!-- second row -->
+      <div class="row mt-5">
+        <div class="col-md-3">
+          <div class="card result-card">
+            <img
+              class="card-img-top"
+              src="images/result-1.svg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Gtbank food and drink festival 2020
+              </p>
+              <p class="card-text">
+                3:00pm
+              </p>
+              <button class="btn result-btn">Select</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card result-card">
+            <img
+              class="card-img-top"
+              src="images/result-2.svg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Gtbank food and drink festival 2020
+              </p>
+              <p class="card-text">
+                3:00pm
+              </p>
+              <button class="btn result-btn">Select</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card result-card">
+            <img
+              class="card-img-top"
+              src="images/result-1.svg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Gtbank food and drink festival 2020
+              </p>
+              <p class="card-text">
+                3:00pm
+              </p>
+              <button class="btn result-btn">Select</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card result-card">
+            <img
+              class="card-img-top"
+              src="images/result-2.svg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Gtbank food and drink festival 2020
+              </p>
+              <p class="card-text">
+                3:00pm
+              </p>
+              <button class="btn result-btn">Select</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ..../ -->
+      <div class="row text-center mt-5">
+        <div class="col mt-3">
+          <form action="checkout.html">
+            <button class="btn result-btn">Proceed</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h3>Be Photo-ready</h3>
+            <p>
+              Subscribe to our news letter to stay updated on our services and
+              offers.
+            </p>
+            <form action="#">
+              <input
+                type="text"
+                placeholder="Full Name"
+                class="form-control p-2"
+              />
+              <input
+                type="text"
+                placeholder="Email address"
+                class="form-control mt-3 p-2"
+              />
+              <button class="btn mt-3 result-btn">Subscribe</button>
+            </form>
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-3 mt-2 text-left">
+            <p>Find an otuna photographer</p>
+            <a href="about.html">About Us</a>
+            <br />
+            <a href="faq.html">FAQ</a>
+            <div class="social-icons">
+              <a href="www.instagram.com/teamotuuna" target="_blank"
+                ><img
+                  src="images/instagram-logo.svg"
+                  class="d-inline"
+                  alt="Instagram Logo"
+                  width="20px"
+              /></a>
+              <a href="www.twitter.com/otuuna1" target="_blank"
+                ><img
+                  src="images/twitter-logo.svg"
+                  class="d-inline ml-4"
+                  alt="Twitter Logo"
+                  width="20px"
+              /></a>
+              <a href="www.facebook.com/Otuuna/" target="_blank"
+                ><img
+                  src="images/fb-logo.svg"
+                  class="d-inline ml-4"
+                  alt="Facebook Logo"
+                  width="20px"
+              /></a>
+            </div>
+          </div>
+          <div class="col-md-4 mt-2">
+            <p>
+              <img
+                src="images/phone-icon.svg"
+                alt=""
+                width="20px"
+                class="mr-2"
+              />
+              +234-808-521-3816
+            </p>
+            <p>
+              <img
+                src="images/mail-icon.svg"
+                alt=""
+                width="20px"
+                class="mr-2"
+              />teamotuuna@gmail.com
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>

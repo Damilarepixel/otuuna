@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+
+
+.text-center {
+font-family: 'Lato', sans-serif;
+text-align: center;
+font-size: 20px;
+}
+
+.accent {
+    background-color: #C90706;
+    text-align: center;
+    color: #ffffff;
+    margin: auto;
+    margin-top: 3em;
+    width: 70%;
+
+}
